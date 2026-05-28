@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Drop shadow for the main bubble logo -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M 54,23 C 38.5,23 26,34.2 26,48 C 26,53.8 28.3,59.1 32.2,63.2 L 28,77 L 43.1,72.6 C 46.5,74.1 50.2,74.9 54,74.9 C 69.5,74.9 82,63.7 82,49.9 C 82,36.1 69.5,23 54,23 Z" />
+
+    <!-- Main White Message Bubble -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M 54,21 C 38.5,21 26,32.2 26,46 C 26,51.8 28.3,57.1 32.2,61.2 L 28,75 L 43.1,70.6 C 46.5,72.1 50.2,72.9 54,72.9 C 69.5,72.9 82,61.7 82,47.9 C 82,34.1 69.5,21 54,21 Z" />
+
+    <!-- Instagram Lens Circle Segment inside the bubble (Teal Theme color) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A9D8F"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 45,46 A 9,9 0 1,1 63,46 A 9,9 0 1,1 45,46" />
+
+    <!-- Instagram Outer Rounded Lens Frame (Pink Accent color) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD62976"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round"
+        android:pathData="M 39,37 H 69 V 57 H 39 Z" />
+
+    <!-- Tiny camera flash highlight -->
+    <path
+        android:fillColor="#FFFA7E1E"
+        android:pathData="M 64,33 A 1.5,1.5 0 1,1 67,33 A 1.5,1.5 0 1,1 64,33" />
+</vector>

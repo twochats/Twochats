@@ -1,0 +1,6 @@
+{
+  "name": "TwoChats",
+  "description": "An elegant messaging workspace combining beautiful visual feed/stories and secure WhatsApp-style group and direct chats with Geometric Balance style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
